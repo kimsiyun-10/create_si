@@ -17,7 +17,7 @@ class TaskDetailPage extends StatelessWidget {
 
       body: Center(
         child: Hero(
-          tag: "task_$title", // 리스트와 동일해야 함
+          tag: "task_$title", 
           child: Material(
             color: Colors.transparent,
             child: Container(
